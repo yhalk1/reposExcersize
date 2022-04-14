@@ -10,7 +10,7 @@ namespace CheckNumber
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi. Let's check wther your number is even)");
+            Console.WriteLine("Hi. Let's check wether your number is even)");
             int number = Convert.ToInt32(Console.ReadLine());
 
             if (number % 2 == 0)
