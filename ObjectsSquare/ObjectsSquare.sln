@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectsSquare", "ObjectsSqu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marks", "..\Marks\Marks.csproj", "{339610C1-A407-4EF0-AFA7-C96ACF41870C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoopExample", "..\..\repos\WhileLoopExample\WhileLoopExample.csproj", "{09C1C642-0D1E-404E-A03D-F365EC82FC94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{339610C1-A407-4EF0-AFA7-C96ACF41870C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{339610C1-A407-4EF0-AFA7-C96ACF41870C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{339610C1-A407-4EF0-AFA7-C96ACF41870C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C1C642-0D1E-404E-A03D-F365EC82FC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C1C642-0D1E-404E-A03D-F365EC82FC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C1C642-0D1E-404E-A03D-F365EC82FC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C1C642-0D1E-404E-A03D-F365EC82FC94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

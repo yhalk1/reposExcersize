@@ -12,7 +12,7 @@ namespace ObjectsSquare
         {
             Console.WriteLine("Hi! Let's calculate the area of objects . Type in: Triangle, Square or Rectangle");
             var mathObject = Console.ReadLine();
-
+           
             switch (mathObject.ToLower()) { 
             
                 case "triangle":
