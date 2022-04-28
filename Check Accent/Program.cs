@@ -17,7 +17,7 @@ namespace Check_Accent
             var helloLenght = hello.Length;
             var char1 = Console.ReadLine().ToLower(); //invalid name, please rename
 
-            for (int i = 0; i < helloLenght; i++)
+            for (int i = 0; i < helloLength; i++)
             {
                 if (char1.Contains(hello[i]))
                     Console.WriteLine("It's an {0} accent", accent[i]);
