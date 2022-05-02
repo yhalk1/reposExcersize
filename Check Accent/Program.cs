@@ -21,12 +21,8 @@ namespace Check_Accent
             {
                 if (char1.Contains(hello[i]))
                     Console.WriteLine("It's an {0} accent", accent[i]);
-                
             }
             
-            
-
-          
         }
     }
 }

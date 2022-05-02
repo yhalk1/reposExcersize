@@ -14,15 +14,28 @@ namespace CheckCharacters
             
             var char1 = Char.Parse(Console.ReadLine());
             var char2 = Char.Parse(Console.ReadLine());
+
+            //if ((Char.IsUpper(char1) && Char.IsUpper(char2)) || (Char.IsLower(char1) && Char.IsLower(char2)))
+            //    Console.WriteLine(1);
+            //else if ((Char.IsLetter(char1) && Char.IsLetter(char2)) && !(Char.IsLower(char1) && Char.IsLower(char2)))
+            //    Console.WriteLine(0);
+            //else if (!Char.IsLetter(char1) && !Char.IsLetter(char2))
+            //    Console.WriteLine(-1);
+            //else
+            //    Console.WriteLine("One of chars is letter");
+
+            Console.WriteLine(CheckCase(char1, char2));
             
-            if ((Char.IsUpper(char1) && Char.IsUpper(char2)) || (Char.IsLower(char1) && Char.IsLower(char2)))
-                Console.WriteLine(1);
-            else if ((Char.IsLetter(char1) && Char.IsLetter(char2)) && !(Char.IsLower(char1) && Char.IsLower(char2)))
-                Console.WriteLine(0);
-            else if (!Char.IsLetter(char1) && !Char.IsLetter(char2))
-                Console.WriteLine(-1);
+        }
+
+        public static int CheckCase(char char1, char char2)
+        {
+            if (Char.IsLetter(char1) && Char.IsLetter(char2))
+            {
+                return Char.IsUpper(char1) == Char.IsUpper(char2) ? 1 : 0;
+            }
             else
-                Console.WriteLine("One of chars is letter");
+                return -1;
         }
     }
 }
