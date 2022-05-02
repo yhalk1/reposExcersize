@@ -22,7 +22,6 @@ namespace BiggestEvenNumber
 
             SelectMaxEvenNumber(numbersArray);
         }
-
         public static void SelectMaxEvenNumber(int[] array)
         {
             Array.Sort(array);
