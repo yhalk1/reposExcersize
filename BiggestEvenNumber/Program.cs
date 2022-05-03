@@ -32,10 +32,7 @@ namespace BiggestEvenNumber
                     Console.WriteLine("The max even number is: " + array[i]);
                     break;
                 }
-            }
-            
+            }  
         }
-        
-
     }
 }
