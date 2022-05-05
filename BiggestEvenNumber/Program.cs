@@ -10,9 +10,9 @@ namespace BiggestEvenNumber
     {
         static void Main(string[] args)
         {
-            int[] numbersArray = new int[5];
-            int arrayLenght = numbersArray.Length;
-
+            int arrayLenght = 5;
+            int[] numbersArray = new int[arrayLenght];
+            
             Console.WriteLine("Please provide a number:  ");
             
             for (int i = 0; i < arrayLenght; i++)
@@ -20,19 +20,24 @@ namespace BiggestEvenNumber
                 numbersArray[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            SelectMaxEvenNumber(numbersArray);
+            //SelectMaxEvenNumber(numbersArray);
+            int j = SelectMaxEvenNumber(numbersArray);
+            Console.WriteLine("The max even number is: " + j);
         }
-        public static void SelectMaxEvenNumber(int[] array)
+        public static int SelectMaxEvenNumber(int[] array)
         {
-            Array.Sort(array);
-            for (int i = array.Length-1; i > 0 ; i--)
+            //Array.Sort(array);
+            var maxValue = 0;
+            foreach (int number in array )
             {
-                if (array[i] % 2 == 0)
+                if (number % 2 == 0 && number > maxValue)
                 {
-                    Console.WriteLine("The max even number is: " + array[i]);
-                    break;
+                    maxValue = number; 
+
+                    //Console.WriteLine("The max even number is: ");
                 }
-            }  
+            }
+            return maxValue;
         }
     }
 }
