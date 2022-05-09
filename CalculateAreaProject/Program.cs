@@ -10,7 +10,6 @@ namespace CalculateAreaProject
    
     internal class Program
     {
-                
         static void Main(string[] args)
         {
             {
@@ -44,7 +43,6 @@ namespace CalculateAreaProject
                         Console.WriteLine("Please provide one of values: Triangle, Square or Rectangle");
                         break;
                 }
-               
             }
         }
     }
