@@ -14,7 +14,7 @@ namespace UnitTestCalculateArea
             var secondNumber = 3;
             var expected = 0.5*firstNumber*secondNumber;
 
-            var actual = CalculateAreas.triangleArea(firstNumber, secondNumber);
+            var actual = Program.TriangleArea(firstNumber, secondNumber);
 
             Assert.AreEqual(expected, actual);
         }

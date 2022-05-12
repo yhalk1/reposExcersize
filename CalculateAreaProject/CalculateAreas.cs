@@ -8,17 +8,19 @@ namespace CalculateMethods
 {
     public class CalculateAreas
     {
-        public static double triangleArea(int a, int b)
+        public double TriangleArea(double a, double b)
         {
-            return 0.5 * a * b;
+            return Math.Round((0.5 * a * b),2);
         }
-        public static double squareArea(int a, int b)
+
+        public double SquareArea(double a)
         {
-            return a * b;
+            return Math.Round(Math.Pow(a, 2), 2);
         }
-        public static double rectangleArea(int a, int b)
+
+        public double RectangleArea(double a, double b)
         {
-            return a * b;
+            return Math.Round((a * b), 2);
         }
     }
 }
