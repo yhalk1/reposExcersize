@@ -99,14 +99,13 @@ namespace DemoQA
             TextBoxPage.ClickRadioButtonYes();
 
             var actualYesBtn = TextBoxPage.IsRadioButtonYesSelected();
-            
             Console.WriteLine("Radio is selected? - " + actualYesBtn);
 
             var actualText = TextBoxPage.CheckRadioButtonYesText();
             Console.WriteLine("Text is " + actualText);
 
             var actualNoBtn = TextBoxPage.IsRadioButtonNoEnabled();
-             Console.WriteLine("Radio is enabled? - " + actualNoBtn);
+            Console.WriteLine("Radio is enabled? - " + actualNoBtn);
 
             Assert.AreEqual(expectedYesBtn, actualYesBtn, "Expected and Actual results are not equal");
             Assert.AreEqual(expectedText, actualText, "Expected and Actual results are not equal");
@@ -132,7 +131,6 @@ namespace DemoQA
             driver.Url = url;
 
             var actualTitle = TextBoxPage.CheckButtonPageTitle();
-
             Console.WriteLine("Button page title is " + actualTitle);
 
             Assert.AreEqual(expectedTitle, actualTitle, "Expected and Actual results are not equal");
