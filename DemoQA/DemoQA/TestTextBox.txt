@@ -1,0 +1,40 @@
+﻿currentAddress.SendKeys(expectedCurrentAdd);
+
+flexible scroll, scroll to element
+
+arguments[0].scrollIntoView({behavior: 'smooth', block: 'center', inline: 'nearest'});
+
+var submit = driver.FindElement(By.Id("submit"));
+
+js.ExecuteScript("window.scrollBy(0,350)", "");
+
+var currentAddress = driver.FindElement(By.Id("currentAddress"));
+
+string actualFullName = driver.FindElement(By.XPath("//p[@id='name']")).Text.Trim('N', 'a', 'm', 'e',':');
+
+string actualFN = driver.FindElement(By.XPath("//p[@id='name']")).Text.Replace("Name:", "");
+
+string actualCurrentAdd = driver.FindElement(By.XPath("//p[@id='currentAddress']")).
+                Text.Replace("Current Address :", "");
+
+                Chech Box
+
+driver.FindElement(By.XPath("//button[@title='Toggle']")).Click();
+
+driver.FindElement(By.XPath("//label[@for='tree-node-documents']/preceding-sibling::*[@title='Toggle']")).Click();
+driver.FindElement(By.XPath("(//button[@title='Toggle'])[3]")).Click();
+
+driver.FindElement(By.XPath("//label[@for='tree-node-workspace']/preceding-sibling::*[@title='Toggle']")).Click();
+driver.FindElement(By.XPath("(//button[@title='Toggle'])[4]")).Click();
+
+driver.FindElement(By.XPath("//label[@for='tree-node-angular']")).Click();//*[text()='Angular']/preceding-sibling::*[@class='rct-checkbox']
+IWebElement check = driver.FindElement(By.XPath("//input[@id='tree-node-angular']"));
+
+driver.FindElement(By.XPath("//span[@class='text-success']")).Text;
+
+            Radio Button
+
+driver.FindElement(By.XPath("//label[@for='yesRadio']")).Click();
+driver.FindElement(By.XPath("//input[@id='yesRadio']"));
+driver.FindElement(By.XPath("//span[@class='text-success']")).Text;
+driver.FindElement(By.XPath("//input[@id='noRadio']"));

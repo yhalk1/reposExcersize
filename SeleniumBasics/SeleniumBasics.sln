@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumBasics", "SeleniumBasics.csproj", "{C1A64770-0662-4046-A71B-244BA51686FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddItemsToCart", "..\AddItemsToCart\AddItemsToCart.csproj", "{3FB4A5F0-1FDF-46E4-AD92-52ECE51461A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginWrongCredendtials", "..\LoginWrongCredendtials\LoginWrongCredendtials.csproj", "{82368EA6-7FB9-4998-9371-7134890C4CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoQAPractice", "..\DemoQAPractice\DemoQAPractice.csproj", "{F1765FC0-BE55-4E77-A399-25C24DCE8FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoQAPracticeCheckBox", "..\DemoQAPractice1\DemoQAPracticeCheckBox.csproj", "{A22F7A12-95CB-4FC8-86BF-B2876F346394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoQARadioButton", "..\DemoQARadioButton\DemoQARadioButton.csproj", "{5AEEE0EA-2AD8-45E5-8D28-6C40029C243D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1A64770-0662-4046-A71B-244BA51686FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A64770-0662-4046-A71B-244BA51686FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A64770-0662-4046-A71B-244BA51686FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A64770-0662-4046-A71B-244BA51686FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB4A5F0-1FDF-46E4-AD92-52ECE51461A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB4A5F0-1FDF-46E4-AD92-52ECE51461A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB4A5F0-1FDF-46E4-AD92-52ECE51461A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB4A5F0-1FDF-46E4-AD92-52ECE51461A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82368EA6-7FB9-4998-9371-7134890C4CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82368EA6-7FB9-4998-9371-7134890C4CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82368EA6-7FB9-4998-9371-7134890C4CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82368EA6-7FB9-4998-9371-7134890C4CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1765FC0-BE55-4E77-A399-25C24DCE8FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1765FC0-BE55-4E77-A399-25C24DCE8FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1765FC0-BE55-4E77-A399-25C24DCE8FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1765FC0-BE55-4E77-A399-25C24DCE8FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22F7A12-95CB-4FC8-86BF-B2876F346394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22F7A12-95CB-4FC8-86BF-B2876F346394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22F7A12-95CB-4FC8-86BF-B2876F346394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22F7A12-95CB-4FC8-86BF-B2876F346394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEEE0EA-2AD8-45E5-8D28-6C40029C243D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEEE0EA-2AD8-45E5-8D28-6C40029C243D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEEE0EA-2AD8-45E5-8D28-6C40029C243D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AEEE0EA-2AD8-45E5-8D28-6C40029C243D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAD1FFA5-B6FC-4E6E-8D1D-372E9889AD54}
+	EndGlobalSection
+EndGlobal
